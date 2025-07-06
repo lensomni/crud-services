@@ -1,0 +1,67 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1.2
+      author: postgres
+      changes:
+        - insert:
+            tableName: companycases
+            columns:
+              - column:
+                  name: statusrecord
+                  value: 0
+              - column:
+                  name: idtype
+                  value: "15"
+              - column:
+                  name: row_id
+                  value: "b5cf4cd245630f2a41ed0c9f29297fa1a3a88b3587cf2e6c85b925551ec37433"
+              - column:
+                  name: date
+                  value: "2023-11-14"
+              - column:
+                  name: count_line
+                  value: "9"
+              - column:
+                  name: caseid
+                  value: "21463971"
+              - column:
+                  name: attempt_id
+                  value: 14
+              - column:
+                  name: system_dttm
+                  value: "2024-11-05 18:07:56.674"
+
+  - changeSet:
+      id: 1.3
+      author: postgres
+      changes:
+        - insert:
+            tableName: companyarbit
+            columns:
+              - column:
+                  name: statusrecord
+                  value: 0
+              - column:
+                  name: idtype
+                  value: "15"
+              - column:
+                  name: row_id
+                  value: "b5cf4cd245630f2a41ed0c9f29297fa1a3a88b3587cf2e6c85b925551ec37433"
+              - column:
+                  name: date
+                  value: "2023-11-14"
+              - column:
+                  name: count_line
+                  value: "9"
+              - column:
+                  name: caseid
+                  value: "21463971"
+              - column:
+                  name: attempt_id
+                  value: 14
+              - column:
+                  name: system_dttm
+                  value: "2024-11-05 18:07:56.674"
+              - column:
+                  name: number
+                  value: "А40-42428/2014"

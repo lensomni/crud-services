@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/casesdb
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  liquibase:
+    change-log: classpath:db/changelog/changelog.yaml
+    default-schema: public
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: kafka-crud-group
+      auto-offset-reset: earliest
